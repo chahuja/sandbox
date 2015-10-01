@@ -1,0 +1,40 @@
+Common GIT commands
+===================
+
+Pulling vs Fetching
+-------------------
+
+
+Retrieves the changes pushed on the remote repository (i.e. origin/branch_name) and keeps it locally without changing the local directory. The branches can be merged by using the merge command.
+
+```sh
+git fetch
+```
+
+If you want to pull changes on chahuja from  orgin/master
+
+```sh
+git fetch
+git checkout chahuja
+git merge origin/master
+```
+
+Pulling fetches the changes and merges them onto the local branches. There maybe conflicts, and one may have to manually sort them out.
+
+```sh
+git pull
+```
+
+
+# TO TRY
+* git merge -- what does it mean
+* git pull -- is the merging done for respective branches
+* git diff
+* what to do before you start of working on your own branch
+  * bring your local up to date before starting anything new
+* revert back to old stuff
+* delete a file out of the git repository, but keep it locally
+* stashing
+* how to manually merge?
+* gitignore
+* rebasing
