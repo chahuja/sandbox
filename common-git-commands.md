@@ -31,6 +31,7 @@ git pull
 * git pull -- is the merging done for respective branches
 * git diff
 * git push
+* git tag
 * what to do before you start of working on your own branch
   * bring your local up to date before starting anything new
 * revert back to old stuff
