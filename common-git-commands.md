@@ -25,6 +25,27 @@ Pulling fetches the changes and merges them onto the local branches. There maybe
 git pull
 ```
 
+Merging
+-------
+
+```sh
+git checkout master
+git merge origin/branch-to-merged
+```
+
+There might be conflicts while merging. Use **merge tool** to resolve the disputes
+
+```sh
+git mergetool --tool=your-choice-of-mergetool
+```
+
+After merging the master branch needs a commit.
+
+```sh
+git commit -m 'Merged branch-to-be-merged to master'
+```
+
+
 
 # TO TRY
 * git merge -- what does it mean
