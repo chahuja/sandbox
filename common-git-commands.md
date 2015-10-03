@@ -61,3 +61,4 @@ git commit -m 'Merged branch-to-be-merged to master'
 * how to manually merge?
 * gitignore
 * rebasing
+* git mergetools
