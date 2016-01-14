@@ -109,4 +109,4 @@ git checkout -b <new-branch> <tag-name>
 * gitignore
 * rebasing
 * git mergetools
-
+* --dry-run
